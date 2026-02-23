@@ -154,6 +154,8 @@
 					<Bitmap profile="fs25_textInputIconBox">
 						<Bitmap profile="fs25_textInputIcon" />
 					</Bitmap>
+					<Text profile="fs25_multiTextOptionTooltip" name="ignore"
+						text="$l10n_ui_WoodHarvesterMeasurement_otherLogMinTitleTT" position="680px 0px"/>
 				</TextInput>
 				<Text profile="fs25_settingsMultiTextOptionTitle"
 					text="$l10n_ui_WoodHarvesterMeasurement_otherLogMinTitle" />
@@ -166,6 +168,8 @@
 					<Bitmap profile="fs25_textInputIconBox">
 						<Bitmap profile="fs25_textInputIcon" />
 					</Bitmap>
+					<Text profile="fs25_multiTextOptionTooltip" name="ignore"
+						text="$l10n_ui_WoodHarvesterMeasurement_otherShortMinTitleTT" position="680px 0px"/>
 				</TextInput>
 				<Text profile="fs25_settingsMultiTextOptionTitle"
 					text="$l10n_ui_WoodHarvesterMeasurement_otherShortMinTitle" />
@@ -178,6 +182,8 @@
 					<Bitmap profile="fs25_textInputIconBox">
 						<Bitmap profile="fs25_textInputIcon" />
 					</Bitmap>
+					<Text profile="fs25_multiTextOptionTooltip" name="ignore"
+						text="$l10n_ui_WoodHarvesterMeasurement_otherPulpwoodMinTitleTT" position="680px 0px"/>
 				</TextInput>
 				<Text profile="fs25_settingsMultiTextOptionTitle"
 					text="$l10n_ui_WoodHarvesterMeasurement_otherPulpwoodMinTitle" />

@@ -4,7 +4,7 @@
 ]]
 
 Species = {
-    UNKNOWN = 0,
+    OTHER = 0,
     PINE = 1, -- mänty
     SPRUCE = 2 -- kuusi
 }
@@ -49,7 +49,7 @@ function Tree.specieToString(specie)
     elseif specie == Species.SPRUCE then
         return "Spruce"
     else
-        return "Unknown"
+        return "Other"
     end
 end
 

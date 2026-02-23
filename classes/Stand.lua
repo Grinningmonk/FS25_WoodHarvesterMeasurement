@@ -11,8 +11,9 @@ Stand = {
     splitCountSpruceLogStand       = 0,
     splitCountSpruceShortStand     = 0,
     splitCountSprucePulpwoodStand  = 0,
-    splitCountUnknownLogStand      = 0,
-    splitCountUnknownPulpwoodStand = 0,
+    splitCountOtherLogStand        = 0,
+    splitCountOtherShortStand      = 0,
+    splitCountOtherPulpwoodStand   = 0,
 
     cubicMetreStand                = 0.0,
     cubicMetrePineLogStand         = 0.0,
@@ -21,8 +22,9 @@ Stand = {
     cubicMetreSpruceLogStand       = 0.0,
     cubicMetreSpruceShortStand     = 0.0,
     cubicMetreSprucePulpwoodStand  = 0.0,
-    cubicMetreUnknownLogStand      = 0.0,
-    cubicMetreUnknownPulpwoodStand = 0.0,
+    cubicMetreOtherLogStand        = 0.0,
+    cubicMetreOtherShortStand      = 0.0,
+    cubicMetreOtherPulpwoodStand   = 0.0,
 
     maxNumberOfTrees               = 10,
     trees                          = {}
@@ -40,8 +42,9 @@ function Stand:new(o)
     o.splitCountSpruceLogStand = o.splitCountSpruceLogStand or self.splitCountSpruceLogStand
     o.splitCountSpruceShortStand = o.splitCountSpruceShortStand or self.splitCountSpruceShortStand
     o.splitCountSprucePulpwoodStand = o.splitCountSprucePulpwoodStand or self.splitCountSprucePulpwoodStand
-    o.splitCountUnknownLogStand = o.splitCountUnknownLogStand or self.splitCountUnknownLogStand
-    o.splitCountUnknownPulpwoodStand = o.splitCountUnknownPulpwoodStand or self.splitCountUnknownPulpwoodStand
+    o.splitCountOtherLogStand = o.splitCountOtherLogStand or self.splitCountOtherLogStand
+    o.splitCountOtherShortStand = o.splitCountOtherShortStand or self.splitCountOtherShortStand
+    o.splitCountOtherPulpwoodStand = o.splitCountOtherPulpwoodStand or self.splitCountOtherPulpwoodStand
 
     o.cubicMetreStand = o.cubicMetreStand or self.cubicMetreStand
     o.cubicMetrePineLogStand = o.cubicMetrePineLogStand or self.cubicMetrePineLogStand
@@ -50,8 +53,9 @@ function Stand:new(o)
     o.cubicMetreSpruceLogStand = o.cubicMetreSpruceLogStand or self.cubicMetreSpruceLogStand
     o.cubicMetreSpruceShortStand = o.cubicMetreSpruceShortStand or self.cubicMetreSpruceShortStand
     o.cubicMetreSprucePulpwoodStand = o.cubicMetreSprucePulpwoodStand or self.cubicMetreSprucePulpwoodStand
-    o.cubicMetreUnknownLogStand = o.cubicMetreUnknownLogStand or self.cubicMetreUnknownLogStand
-    o.cubicMetreUnknownPulpwoodStand = o.cubicMetreUnknownPulpwoodStand or self.cubicMetreUnknownPulpwoodStand
+    o.cubicMetreOtherLogStand = o.cubicMetreOtherLogStand or self.cubicMetreOtherLogStand
+    o.cubicMetreOtherShortStand = o.cubicMetreOtherShortStand or self.cubicMetreOtherShortStand
+    o.cubicMetreOtherPulpwoodStand = o.cubicMetreOtherPulpwoodStand or self.cubicMetreOtherPulpwoodStand
 
     o.maxNumberOfTrees = o.maxNumberOfTrees or self.maxNumberOfTrees
     o.trees = o.trees or self.trees

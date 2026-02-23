@@ -35,6 +35,7 @@ Styles = {
 			cutOnGoingBackgroundOpacity = 0.8,
 			pineBackgroundColor         = Colors.PONSSE_BLUE,
 			spruceBackgroundColor       = Colors.PONSSE_GREEN,
+			otherBackgroundColor        = Colors.CYAN,
 			highlightBackGroundColor    = Colors.PONSSE_YELLOW,
 			fontColor                   = Colors.BLACK
 		},
@@ -44,6 +45,7 @@ Styles = {
 			cutOnGoingBackgroundOpacity = 0.8,
 			pineBackgroundColor         = Colors.BLUE,
 			spruceBackgroundColor       = Colors.GREEN,
+			otherBackgroundColor        = Colors.CYAN,
 			highlightBackGroundColor    = Colors.KOMATSU_DARKBLUE,
 			fontColor                   = Colors.KOMATSU_YELLOW
 		},
@@ -53,6 +55,7 @@ Styles = {
 			cutOnGoingBackgroundOpacity = 0.8,
 			pineBackgroundColor         = Colors.BLUE,
 			spruceBackgroundColor       = Colors.GREEN,
+			otherBackgroundColor        = Colors.CYAN,
 			highlightBackGroundColor    = Colors.YELLOW,
 			fontColor                   = Colors.BLACK
 		},
@@ -64,6 +67,7 @@ Styles = {
 			cutOnGoingBackgroundOpacity = 0.8,
 			pineBackgroundColor         = Colors.BLUE,
 			spruceBackgroundColor       = Colors.GREEN,
+			otherBackgroundColor        = Colors.CYAN,
 			highlightBackGroundColor    = Colors.YELLOW,
 			fontColor                   = Colors.BLACK
 		}
